@@ -41,11 +41,11 @@ $$                | Represents the process ID of the current shell. For shell sc
                             ↓
                   ==Grapical Desktop Environment== 🖥
                                           ↓ ↑
-                       ↓    ==GNU system Utilities==  Utilities for  ***handling files, manipulating text, managing process eg ls, find, cd, ps ...*** 
+                       ↓    ==GNU system Utilities==  Utilities for  (1) handling files, (2) manipulating text, (3) managing process samples are command  ls, find, cd, ps ... 
                                             ↓ ↑
                                   ===========shell================ sh, zsh, bash, ash, tcsh
                        ↓                    ↓        ↑ 
-                    =============Linux Kernel=============== **memory management, process management, harware management, Filesystem management
+                    =============Linux Kernel=============== (1) memory management, (2) process management, (3) harware management, (4) Filesystem management
                           ↓ ↑                    ↑ ↓   
                     ==========computer hardware============= Network device, 
 
