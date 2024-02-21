@@ -71,7 +71,7 @@ The Linux structure is as represented but this only includes directories and fil
          * /usr/sbin/
          * /usr/bin/
          * /usr/local/
-             * /usr/local/bin
+             * /usr/local/bin/
          * /usr/share/
             * /usr/share/man
             * /usr/share/doc
