@@ -51,3 +51,32 @@ $$                | Represents the process ID of the current shell. For shell sc
 
 
 
+
+In Linux everything is a FILE 📌
+The Linux structure is as represented but this only includes directories and files of significant note  📌
+
+## Directory and File Structure
+ * / -> the Root of all files and directory
+     * /boot/ ->
+     * /etc/ ->
+         * /etc/profile ->
+         * /etc/passwd ->
+         * /etc/shadow ->
+         * /etc/hosts
+         * /etc/init.d/
+     * /home/
+     * /sbin/
+     * /bin/
+     * /usr/
+         * /usr/sbin/
+         * /usr/bin/
+         * /usr/local/
+             * /usr/local/bin
+         * /usr/share/
+            * /usr/share/man
+            * /usr/share/doc
+     * /var
+         * /var/log
+       
+   
+
