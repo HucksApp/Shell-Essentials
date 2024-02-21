@@ -41,7 +41,7 @@ $$                | Represents the process ID of the current shell. For shell sc
                             ↓
                   ==Grapical Desktop Environment== 🖥
                                           ↓ ↑
-                       ↓    ==GNU system Utilities==  Utilities for  (1) handling files, (2) manipulating text, (3) managing process samples are command  ls, find, cd, ps ... 
+                       ↓    ==GNU system Utilities==  Utilities for  (1) handling files, (2) manipulating text, (3) managing process. samples are command  ls, find, cd, ps ... 
                                             ↓ ↑
                                   ===========shell================ sh, zsh, bash, ash, tcsh
                        ↓                    ↓        ↑ 
