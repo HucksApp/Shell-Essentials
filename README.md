@@ -30,7 +30,6 @@ $$                | Represents the process ID of the current shell. For shell sc
 
 
 # Operating system
-(the core of all software)
  system software that manages computer hardware and software resources, and provides common services for computer programs.
  e.g  Microsoft windows, macOs, ***Linux**, ios
  
