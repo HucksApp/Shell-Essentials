@@ -52,8 +52,8 @@ $$                | Represents the process ID of the current shell. For shell sc
 
 
 
-In Linux everything is a FILE 📌
-The Linux structure is as represented but this only includes directories and files of significant note  📌
+> In Linux everything is a FILE 📌
+> The Linux structure is as represented but this only includes directories and files of significant note  📌
 
 ## Directory and File Structure
 ```
