@@ -66,6 +66,13 @@ $$                | Represents the process ID of the current shell. For shell sc
          * 📄 /etc/hosts
          * 📁 /etc/init.d/
      * 📁 /home/
+     * 📁 /lib/
+     * 📁 /root/
+     * 📁 /tmp/
+     * 📁 /dev/
+         * 📄 /dev/sda
+     * 📁 /proc/
+     * 📁 /media/
      * 📁 /sbin/
      * 📁 /bin/
      * 📁 /usr/
@@ -77,7 +84,9 @@ $$                | Represents the process ID of the current shell. For shell sc
             * 📄 /usr/share/man
             * 📄 /usr/share/doc
      * 📁 /var
-         * /var/log
+         * 📁 /var/log/
+         * 📁 /var/spool/
+            * 📄 /var/log/spool/mail
 ```
        
    
