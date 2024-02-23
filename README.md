@@ -113,12 +113,16 @@ Command                     |            Description and options
 pwd                         | Present working Directory -> check the directory you are in the system structure `$ pwd`
 cd                          | Change Directory -> change directory to the given directory name  or to home if no given `$ cd <direcrory name>` or `$ cd`
 ls                          | lists the files and directories in the given directory name or current directory if no directory name `$ ls <direcrory name>` or `$ ls`
-                            | Options: `ls -< F R a l >  ?<direcrory name>`
-                            |      F -> Flag the result. directories are written like `<directory name>/` and files `<file name>`
-                            |      R ->  Recursive option, all directories and subdirectory is listed
-                            |      l -> long information, display the files and directories full information
-                            |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
-cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp -< i > <source> <destination>`
+⟹                          | Options: `ls -< F R a l >  ?<direcrory name>`
+⟹                          |      F -> Flag the result. directories are written like `<directory name>/` and files `<file name>`
+⟹                          |      R ->  Recursive option, all directories and subdirectory is listed
+⟹                          |      l -> long information, display the files and directories full information
+⟹                          |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
+cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp  <source> <destination>`
+⟹                          | Options: `cp -< i R > <source> <destination>`
+⟹                          |      i -> interactive, shell asks important modification question, as it tries to execute the given copy command
+⟹                          |      R -> Recursive option, copy files in directory and all sub directory
+                                 
 
 
        
