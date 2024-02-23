@@ -100,10 +100,11 @@ $$                | Represents the process ID of the current shell. For shell sc
 
 
 
-
 ## Text manipulation
 
-
+wc
+find
+grep
 
 ## File and Directory manipulation
 
@@ -122,6 +123,61 @@ cp                          | Copy -> Copying files and directories from one loc
 ⟹                          | Options: `cp -< i R > <source> <destination>`
 ⟹                          |      i -> interactive, shell asks important modification question, as it tries to execute the given copy command
 ⟹                          |      R -> Recursive option, copy files in directory and all sub directory
+tail
+head
+file
+type
+which
+ln
+mkdir
+touch
+rm
+mv
+echo
+cat
+sort
+
+
+
+## sample and descriptions
+```
+$ ls -l desktop
+
+$ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
+  ■  ■        ■    ■         ■        ■  (   ■       )  ■
+
+■ The file type — such as directory (d), file (-), linked file (l), character device (c), or block device (b)
+■ The file permissions (see Chapter 6)
+■ The number of file hard links (See the section “Linking Files” in Chapter 7.)
+■ The file owner username
+■ The file primary group name
+■ The file byte size
+■ The last time the file was modified
+■ The filename or directory name
+```
+
+
+## Process manipulation
+
+ps
+kill
+killall
+
+
+
+## Compressing and Archiving data
+zip
+bzip2
+gzip
+compress
+tar -> most used
+
+
+## Memory
+mount
+umount
+df
+du
                                  
 
 
