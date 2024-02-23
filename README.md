@@ -168,7 +168,7 @@ $ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
 ```
 
 When you log in to the Linux system, the bash shell starts as a login shell. The login shell typically looks for five different startup files to process commands from:
-■ /etc/profile 📄 -> main default startup file for the bash shell on the system. All users on the system execute this startup file when they log in
+* /etc/profile 📄 -> main default startup file for the bash shell on the system. All users on the system execute this startup file when they log in
 
 The other four startup files are specific for each user and can be customized for an individual user’s requirements
 
