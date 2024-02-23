@@ -53,7 +53,7 @@ $$                | Represents the process ID of the current shell. For shell sc
 
 
 > In Linux everything is a FILE 📌
->> The Linux structure is as represented but this only includes directories and files of significant note  📌
+>> The Linux structure is as represented and explained but only directories ,files, command, command options, and topics that are significant note are included here as a quick use guide.  📌
 
 ## Directory and File Structure
 ```
@@ -97,6 +97,30 @@ $$                | Represents the process ID of the current shell. For shell sc
          * 📁 /var/spool/ -> This directory is used to hold files that are queued for some process, such as mail messages and print jobs
             * 📄 /var/log/spool/mail -> stores mail messages
 ```
+
+
+
+
+## Text manipulation
+
+
+
+## File and Directory manipulation
+
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
+pwd                         | Present working Directory -> check the directory you are in the system structure `$ pwd`
+cd                          | Change Directory -> change directory to the given directory name  or to home if no given `$ cd <direcrory name>` or `$ cd`
+ls                          | lists the files and directories in the given directory name or current directory if no directory name `$ ls <direcrory name>` or `$ ls`
+                            | Options: `ls -< F R a l >  ?<direcrory name>`
+                            |      F -> Flag the result. directories are written like `<directory name>/` and files `<file name>`
+                            |      R ->  Recursive option, all directories and subdirectory is listed
+                            |      l -> long information, display the files and directories full information
+                            |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
+cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp -< i > <source> <destination>`
+
+
        
    
 
