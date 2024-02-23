@@ -144,7 +144,7 @@ sort
 $ ls -l desktop
 
 $ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
-  ■  ■        ■    ■         ■        ■  (   ■       )  ■
+  ■  ■        ■    ■         ■       ■ (     ■      )  ■
 
 ■ The file type — such as directory (d), file (-), linked file (l), character device (c), or block device (b)
 ■ The file permissions (see Chapter 6)
