@@ -189,6 +189,7 @@ shows credentials of both ***system account*** created by linux system for servi
 ■ A text description of the user account (called the comment field)
 ■ The location of the HOME directory for the user
 ■ The default shell for the user
+
 name : usr passwd : UID : GID : title : default shell
 ```
 $ cat /etc/passwd
