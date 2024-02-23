@@ -172,10 +172,10 @@ When you log in to the Linux system, the bash shell starts as a login shell. The
 
 The other four startup files are specific for each user and can be customized for an individual user’s requirements
 
-■ $HOME/.bash_profile  -> file first checks to see if the startup file, .bashrc, is present in the HOME directory. If it’s there, the startup file executes the commands in the .bashrc file
-■ $HOME/.profile 📄 -> 
-■ $HOME/.bashrc 📄 -> 
-■ $HOME/.bash_login 📄 -> 
+* ■ $HOME/.bash_profile  -> file first checks to see if the startup file, .bashrc, is present in the HOME directory. If it’s there, the startup file executes the commands in the .bashrc file
+* ■ $HOME/.profile 📄 -> 
+* ■ $HOME/.bashrc 📄 -> 
+* ■ $HOME/.bash_login 📄 -> 
 
 
 
