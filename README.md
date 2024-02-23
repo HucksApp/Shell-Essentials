@@ -58,35 +58,44 @@ $$                | Represents the process ID of the current shell. For shell sc
 ## Directory and File Structure
 ```
  * 📁 / -> the Root of all files and directory 
-     * 📁 /boot/ ->
-     * 📁  /etc/ ->
-         * 📄 /etc/profile ->
-         * 📄 /etc/passwd ->
+     * 📁 /boot/ -> This is where the Linux kernel and boot loader files are kept. The kernel is a file called vmlinuz.
+     * 📁  /etc/ -> System configuration files directory
+         * 📄 /etc/profile -> 
+         * 📄 /etc/passwd -> The passwd file contains the essential information for each user. This is where user accounts are defined.
          * 📄 /etc/shadow ->
-         * 📄 /etc/hosts
-         * 📁 /etc/init.d/
-     * 📁 /home/
-     * 📁 /lib/
-     * 📁 /root/
-     * 📁 /tmp/
-     * 📁 /dev/
-         * 📄 /dev/sda
-     * 📁 /proc/
-     * 📁 /media/
-     * 📁 /sbin/
-     * 📁 /bin/
-     * 📁 /usr/
-         * 📁 /usr/sbin/
-         * 📁 /usr/bin/
-         * 📁 /usr/local/
-             * 📁  /usr/local/bin/
-         * 📁 /usr/share/
-            * 📄 /usr/share/man
-            * 📄 /usr/share/doc
-     * 📁 /var
-         * 📁 /var/log/
-         * 📁 /var/spool/
-            * 📄 /var/log/spool/mail
+         * 📄 /etc/hosts -> This file lists the network host names and IP addresses that are known to the system.
+         * 📄 /etc/fstab -> Contains a table of devices that get mounted when the system boots. This file defines the system's disk drives
+         * 📁 /etc/init.d/ -> This directory contains the scripts that start various system services at boot time.
+     * 📁 /home/ -> home directory, where Linux creates user directories
+     * 📁 /lib/ -> The shared libraries (similar to DLLs in that other operating system)
+     * 📁 /root/ -> This is the superuser's home directory.
+     * 📁 /tmp/ -> Directory in which runing programs can write their temporary files.
+     * 📁 /dev/ -> Device directory, where Linux creates device nodes for  devices that are available to the system, In Linux (like Unix), devices are treated like files
+         * 📄 /dev/sda -> the first hard drive
+         * 📄 /dev/fd0 -> the first floppy disk drive
+     * 📁 /proc/ -> process directory, where current hardware and process information is stored It is entirely virtual. The directory contains little peep holes into the kernel itself.
+         * 📄 /proc/cpuinfo -> tell you what the kernel thinks of the system's CPU
+     * 📁 /mnt/ -> mount directory, common place for mount points used for removable media
+     * 📁 /media/ -> media directory, a common place for mount points used for removable media
+     * 📁 /opt/ -> optional directory, often used to store third-party software packages and data files
+     * 📁 /run/ -> run directory, where runtime data is held during system operation
+     * 📁 /sys/ -> system directory, where system hardware information files are stored
+     * 📁 /srv/ -> service directory, where local services store their files
+     * 📁 /sbin/ -> super user system binary directory,  contain system programs for system administration (super User only programs)
+     * 📁 /bin/ -> system Binary directory, where many GNU utilities are stored
+     * 📁 /usr/ -> user binary directory, user-level utilities and data files are stored
+         * 📁 /usr/sbin/ -> super user binary directory, contain user programs for system administration (super User only programs)
+         * 📁 /usr/bin/  -> user binary directory, contains applications for the system's users.
+         * 📁 /usr/local/ -> local system directory, contain all user installed programs that is not part of the official distribution
+             * 📁  /usr/local/bin/ -> local system user binary directory, contains binary files of user installed programs 
+         * 📁 /usr/share/ -> user shared programs
+            * 📁 /usr/share/man/ -> The man pages are kept here.
+            * 📁 /usr/share/dict -> Dictionaries for the spelling checker that comes with Linux
+            * 📁 /usr/share/doc/ -> Various documentation files in a variety of formats.
+     * 📁 /var -> Directory contains files that change as the system is running.
+         * 📁 /var/log/ -> Directory that contains log files. These are updated as the system runs, recording information such as the systems health
+         * 📁 /var/spool/ -> This directory is used to hold files that are queued for some process, such as mail messages and print jobs
+            * 📄 /var/log/spool/mail -> stores mail messages
 ```
        
    
