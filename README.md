@@ -172,23 +172,23 @@ When you log in to the Linux system, the bash shell starts as a login shell. The
 
 The other four startup files are specific for each user and can be customized for an individual user’s requirements
 
-* ■ $HOME/.bash_profile  -> file first checks to see if the startup file, .bashrc, is present in the HOME directory. If it’s there, the startup file executes the commands in the .bashrc file
-* ■ $HOME/.profile 📄 -> 
-* ■ $HOME/.bashrc 📄 -> 
-* ■ $HOME/.bash_login 📄 -> 
+*  $HOME/.bash_profile  -> file first checks to see if the startup file, .bashrc, is present in the HOME directory. If it’s there, the startup file executes the commands in the .bashrc file
+*  $HOME/.profile 📄 -> 
+*  $HOME/.bashrc 📄 -> 
+*  $HOME/.bash_login 📄 -> 
 
 
 
 ### /etc/passwd 📄
 shows credentials of both ***system account*** created by linux system for services access to resources and user accounts
 **Format** : 
-■ The login username
-■ The password for the user
-■ The numerical UID of the user account
-■ The numerical group ID (GID) of the user account
-■ A text description of the user account (called the comment field)
-■ The location of the HOME directory for the user
-■ The default shell for the user
+* The login username
+* The password for the user
+* The numerical UID of the user account
+* The numerical group ID (GID) of the user account
+* A text description of the user account (called the comment field)
+* The location of the HOME directory for the user
+* The default shell for the user
 
 name : usr passwd : UID : GID : title : default shell
 ```
@@ -230,16 +230,16 @@ katie:x:502:502:katie:/home/katie:/bin/bash
 File contains one record for each user account on the system, Only the root user has access
 
 **Format** : 
-■ The login name corresponding to the login name in the /etc/passwd file
-■ The encrypted password
-■ The number of days since January 1, 1970, that the password was last changed
-■ The minimum number of days before the password can be changed
-■ The number of days before the password must be changed
-■ The number of days before password expiration that the user is warned to change the password
-■ The number of days after a password expires before the account will be disabled
-■ The date (stored as the number of days since January 1, 1970) since the user
+* The login name corresponding to the login name in the /etc/passwd file
+* The encrypted password
+* The number of days since January 1, 1970, that the password was last changed
+* The minimum number of days before the password can be changed
+* The number of days before the password must be changed
+* The number of days before password expiration that the user is warned to change the password
+* The number of days after a password expires before the account will be disabled
+* The date (stored as the number of days since January 1, 1970) since the user
 account was disabled
-■ A field reserved for future use
+* A field reserved for future use
 
 ```
 $ cat /etc/shadow
@@ -254,10 +254,10 @@ $
 file contains information about each group used on the system
 
 **Format** : 
-■ The group name
-■ The group password
-■ The GID
-■ The list of user accounts that belong to the group
+* The group name
+* The group password
+* The GID
+* The list of user accounts that belong to the group
 
 ```
 $ cat /etc/group
