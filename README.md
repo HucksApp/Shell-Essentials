@@ -123,9 +123,10 @@ ls                          | lists the files and directories in the given direc
 ⟹                          |      l -> long information, display the files and directories full information
 ⟹                          |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
 cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp  <source> <destination>`
-⟹                          | Options: `cp -< i R > <source> <destination>`
+⟹                          | Options: `cp -< i R p > <source> <destination>`
 ⟹                          |      i -> interactive, shell asks important modification question, as it tries to execute the given copy command
 ⟹                          |      R -> Recursive option, copy files in directory and all sub directory
+⟹                          |      p -> keep all attributes of the file, including its access permissions, owner ....
 tail
 head
 file
