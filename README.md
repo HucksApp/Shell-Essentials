@@ -331,27 +331,51 @@ translates human-adapted, text-based domain names to machine-adapted, numerical-
 ### Dns translation process
 
 
-```                             (3) calls the Operating system           (5) calls the RESOLVER (ISP)
-(1) input  --->  🖥 🌐 WEB BROWSER          -->       💻 ⚙️ ⚒ OPERATING SYSTEM      -->    ♻️ RESOLVER (ITERNET SERVICE PROVIDER)       
-(example.com)   (2) Process: searches                 (4) Process:searches                
-                its cache for host                    specific folders and                
-                 name to ip mapping                   files like  /etc/host,...           
-                 IF NOT fOUND❓proceed                for host to ip mapping              
-                                                      IF NOT fOUND❓proceed               
-                                                                                           
-                                                                                           
+```
+                                                                                                    🗃 AUTHORATIVE NAME SERVERS
+                                                                                                      This are all servers that serves at the host name
+                                                                                                      and address
+                                                                                                     (13) process: returns the address of the hostname given
+                                                                                                                      ↗️
+                                                                        (12) Call to the 1st Authoritative name server
 
-                                        
-                                         
+                                                                                                             ↗️
+
+                                       
+                         (3) calls the Operating system           (5) calls the RESOLVER (ISP)       ↗️
+(1) input  --->  🖥 🌐 WEB BROWSER          -->       💻 ⚙️ ⚒ OPERATING SYSTEM      -->    ♻️ RESOLVER (ITERNET SERVICE PROVIDER)       
+(example.com)   (2) Process: searches                 (4) Process:searches                (6) process: the resolver 
+                its cache for host                    specific folders and                checks its own cache  for host to ip 
+                 name to ip mapping                   files like  /etc/host,...           mapping ->  "example.com":<ip address>
+                 IF NOT fOUND❓proceed                for host to ip mapping              IF NOT fOUND❓proceed        
+                                                      IF NOT fOUND❓proceed               (9) Process: the resolver records the 
+                                                                                           TLD server address returned from the
+                                                                                           root server.
+                                                                                          (11) process: the resolver records the
+                                                                                      ↙️    address of the Authoritative name servers
+                                                                                           (12) Process: return the ip address to
+                                                                                             the OS
+                                                                                                                  ⬇️
+                                                    (9) Calls the TLD server  ↙️                                (7) the resolver calls the root server
+                                                                  
+                                                                       ↙️                                           ⬇️
                                                                                           🗄 📍 ROOT SERVER
                                                                                            Root servers sit at the top of the DNS hierarchy.
-                                                                                           There are  13 root name servers in world scattered arrd
-                                                                                           named [letter].root-servers.net where [letter] ranges from A to M.
-                                                                                           They hold the Top Level Domains (TLD) servers addresses
-                                                                                           (.NET, .COM, .ORG, ...) i.e '.com' : <.com TDL server address>
-                                                                                           (6) Process: return the right TDL server 
-                                                                                            address for the domain asked
- 
+                                🗄 📍 TOP LEVEL DOMAIN SERVER (TLD)                        There are  13 root name servers in world scattered arround
+                                this has the address of all Authoritative name servers     named [letter].root-servers.net where [letter] ranges from A to M.
+                                (All servers that serves at the host name space)           ex. B.root-servers.net
+                                (10) Process: returns all the name servers serving         They hold the Top Level Domains (TLD) servers addresses
+                                 at the host name space  [ns1.example.com,                (.NET, .COM, .ORG, ...) i.e '.com' : <.com TDL server address>
+                                 ns2.example.com, ns3.example.com]                         (8) Process: return the right TLD server 
+                                                                                            address for the domain asked -> '.COM': <server address>
+
+
+
+
+                                                                                       
+                                                                                        
+
+       
 
                                                        
 
