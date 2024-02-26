@@ -381,7 +381,7 @@ A record (Address records)         | A record maps a domain name to the IP addre
 ⇒                                  |             ***Name:*** The host name for the record, This is generally referred to as “subdomain”.
 ⇒                                  |             ***TTL:*** The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver
 ⇒                                  |             ***Address:*** The IPv4 address the A record points
-CNAME (Canonical Name) record      |  maps one domain name (an alias) to another (the canonical name). when running multiple services (like an FTP server and a web server, each running on different ports). use CNAME records to point ftp.example.com and www.example.com to the DNS entry for example.com, which in turn has an A record which points to the IP address
+CNAME (Canonical Name) record      |  maps one domain name (an alias) to another (the canonical name). when running multiple services (like an FTP server and a web server, each running on different ports and from a single IP address). use CNAME records to point ftp.example.com and www.example.com to the DNS entry for example.com, which in turn has an A record which points to the IP address
 
 
 
