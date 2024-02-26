@@ -368,6 +368,11 @@ translates human-adapted, text-based domain names to machine-adapted, numerical-
                                  at the host name space  [ns1.example.com,                (.NET, .COM, .ORG, ...) i.e '.com' : <.com TDL server address>
                                  ns2.example.com, ns3.example.com]                         (8) Process: return the right TLD server 
                                                                                             address for the domain asked -> '.COM': <server address>
+```
+
+
+## DNS Records
+
 
 
 
