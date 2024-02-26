@@ -377,7 +377,7 @@ translates human-adapted, text-based domain names to machine-adapted, numerical-
 Type of Record                     |    Usage and Description
 -----------------------------------|-------------------------------------------------
 A record (Address records)         | A record maps a domain name to the IP address (Version 4) of the computer hosting the domain,its primary records used in DNS servers
-⇒                                  | A_obj:<address> -> where  ***A_obj*** is an element with following fields
+⇒                                  | A_obj:\<address> -> where  ***A_obj*** is an element with following fields
 ⇒                                  |             ***Name:*** The host name for the record, This is generally referred to as “subdomain”.
 ⇒                                  |             ***TTL:*** The time-to-live in seconds. This is the amount of time the record is allowed to be cached by a resolver
 ⇒                                  |             ***Address:*** The IPv4 address the A record points
