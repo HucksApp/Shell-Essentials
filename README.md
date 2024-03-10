@@ -334,7 +334,7 @@ extracting the output of a shell process or commands (executed in a subshell)
 * `var1=\$(commands)` -> with bracket
 
 
-#Wildcards
+# Wildcards
 * `?` question mark ->  this can represent any single character, letter/number between a-z, 0-9.
 * `*` asterisk -> this can represent any number of characters (including zero, in other words, zero or more characters)
 * `[ ]` square brackets -> specifies a range.
