@@ -279,8 +279,6 @@ $
 ```
 
 
-
-
 ## Process manipulation
 
 ps
@@ -322,6 +320,30 @@ chage
 chfn
 chsh
 chmod
+
+
+## Shell Variable
+
+* Defination -> `var1=value` Auto detection of data type ***int, string etc***
+* Reference -> `$var1`
+
+
+# command substitution
+extracting the output of a shell process or commands (executed in a subshell)
+* `var1=\`commands\`` -> with backticks
+* `var1=\$(commands)` -> with bracket
+
+
+#Wildcards
+* `?` question mark ->  this can represent any single character, letter/number between a-z, 0-9.
+* `*` asterisk -> this can represent any number of characters (including zero, in other words, zero or more characters)
+* `[ ]` square brackets -> specifies a range.
+* `{ }` curly brackets -> specifies a list. terms are separated by commas and each term must be the name of something or a wildcard
+* `[!]` Not in List -> specifies a Not listed match
+
+
+
+
 
 
 ## DOMAIN NAME SYSTEM (DNS)
