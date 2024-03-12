@@ -339,18 +339,23 @@ chmod
 
 # Shell Scripting
 
+
+## subshell
+* `(comands; commands; ...)` -> parentheses
+
 ## Shell Variable
 
 * Defination -> `var1=value` Auto detection of data type ***int, string etc***
 * Reference -> `$var1`
 
 
-# command substitution
+
+## command substitution
 extracting the output of a shell process or commands (executed in a subshell)
 * `` var1=`commands` `` -> with backticks
 * `var1=$(commands)` -> with bracket
 
-# Expression subtitution
+## Expression subtitution
 extracting the output of a mathematical or logical expression
 * `$[math expression]` -> with square bracket
 
@@ -362,8 +367,11 @@ use command subtitution to extract the return of the commands evaluated expressi
 * `bc` -> Bash calculator command can be used.
 
 
+## Parameter Expansion
+* `${parameter: value}` -> with Curly bracket
 
-# Wildcards ⚡
+
+## Wildcards ⚡
 * `?` question mark ->  this can represent any single character, letter/number between a-z, 0-9.
 * `*` asterisk -> this can represent any number of characters (including zero, in other words, zero or more characters)
 * `[ ]` square brackets -> specifies a range.
