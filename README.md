@@ -422,7 +422,7 @@ fi
    logical and arithmetics has to be in string and option format eg  `if [ $value1 -gt 5 ]` or  `if [ $value1 \> 5 ]` : `-gt`  -> `>` : greater than. it had to be escaped in the contest since '>' in string is redirection
   * compound testing  (AND) -> all condition must be true `[ condition1 ] && [ condition2 ] ...` or  (OR) only one condition is required to be true `[ condition1 ] || [ condition2 ] ...`
 
-* `[[conditions]]` double square bracket ->
+
 
 
 ### File Test 🔎📃🧪
@@ -455,7 +455,12 @@ command                          |         Description
 `-z str1`                | Checks if str1 has a length of zero
 
 
+## advanced logical and mathematical expression
 
+* `((expression))` double round bracket  -> expresssion and mathematic signs  variable are all parsed
+   * Compound expressions -> `((expression &&  expression ....))` ,  `((expression ||  expression))` , `((expression)) && ((expression )) ...` , `((expression)) || ((expression)) ...` 
+* `[[expression]]` double square bracket -> expresssion and mathematic signs  variable are all parsed
+   * Compound expressions -> `[[expression &&  expression ....]]` , `[[expression ||  expression]]` , `[[expression ]] && [[expression &}] ...` , `[[expression]] || [[expression]] ...` 
 
 
 ## DOMAIN NAME SYSTEM (DNS)
