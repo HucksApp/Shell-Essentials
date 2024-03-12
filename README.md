@@ -1,6 +1,6 @@
 # Shell-clean-sheat  🐚 🐚 🐚 🐚
 
-![bash_logo](https://github.com/HucksApp/Shell-cln-sht/assets/58187974/76cda9a3-98d6-45f3-aa3a-b297ce91737e)
+![bashlogo](https://github.com/HucksApp/Shell-cln-sht/assets/58187974/d6f238e5-111f-45ee-9f0a-61305aa9dc3a)
 
 
 
