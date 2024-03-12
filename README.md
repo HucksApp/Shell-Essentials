@@ -333,6 +333,13 @@ extracting the output of a shell process or commands (executed in a subshell)
 * `` var1=`commands` `` -> with backticks
 * `var1=$(commands)` -> with bracket
 
+# Expression subtitution
+extracting the output of a mathematical or logical expression
+* `$[math expression]` -> with square bracket
+* `expr` -> expr command can be use to evaluate mathematical or logical expression written in string
+  `expr 1 + 5` use command subtitution to extract the return of the evaluated expression.
+
+
 
 # Wildcards
 * `?` question mark ->  this can represent any single character, letter/number between a-z, 0-9.
@@ -351,7 +358,7 @@ extracting the output of a shell process or commands (executed in a subshell)
 * `command << marker` -> `<<` The inline input redirection,  you must specify a text marker that delineates the beginning and end of the data used for input. You can use any string value for the text marker, but it must be the same at the beginning of the data and the end of the data:
 
 ## pipes
-* `command | command` -> Send the output of one command to the input of another command
+* `command | command | command` -> Send the output of one command to the input of another command
 
 ## DOMAIN NAME SYSTEM (DNS)
 
