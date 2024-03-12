@@ -342,9 +342,13 @@ extracting the output of a shell process or commands (executed in a subshell)
 * `[!]` Not in List -> specifies a Not listed match
 
 
-# Input and Output Stream redirection
-* `command > outputfile` -> `>` Write, write the stream overiding previous content
-* `command >> outputfile` -> '>>' Append, writes the stream appending to the old content 
+# Input Stream redirection
+* `command > outputfile` -> `>` Write, write the stream overiding previous content and create destination if not exists
+* `command >> outputfile` -> `>>` Append, writes the stream appending to the old content 
+
+# Output Stream redirection
+* `command < inputfile` -> `<` Write, write the stream  as input to a command specified
+* `command << marker` -> `<<` The inline input redirection,  you must specify a text marker that delineates the beginning and end of the data used for input. You can use any string value for the text marker, but it must be the same at the beginning of the data and the end of the data:
 
 
 
