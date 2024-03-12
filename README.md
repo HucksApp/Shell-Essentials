@@ -31,12 +31,11 @@ Special Variable  | Description
 
 
 
-# Operating system
+# Operating system ⚙️⚙️ 🖥
  system software manages computer hardware and software resources, and provides common services for computer programs.
  e.g  Microsoft windows, macOs, ***Linux**, ios
  
- ## structure of Linux
-
+ ## structure of Linux ⛺️
     
                 ==Application Software== 📲 📟  This is all system apps and user apps 
                             ↓
@@ -104,15 +103,12 @@ Special Variable  | Description
 
 
 
-## Text manipulation
-
+## Text manipulation 📝
 wc
 find
 grep
 
-## File and Directory manipulation
-
-
+## File and Directory manipulation 📂 📄
 Command                     |            Description and options
 ----------------------------|--------------------------------------
 pwd                         | Present working Directory -> check the directory you are in the system structure `$ pwd`
@@ -280,8 +276,7 @@ $
 ```
 
 
-## Process manipulation
-
+## Process manipulation ⚙️⚙️🔁
 ps
 bash
 jobs
@@ -292,7 +287,7 @@ killall
 
 
 
-## Compressing and Archiving data
+## Compressing and Archiving data 📃 → 🗞
 zip
 bzip2
 gzip
@@ -300,13 +295,13 @@ compress
 tar -> most used
 
 
-## Memory
+## Memory 🧠
 mount
 umount
 df
 du
                                  
-## User and Group Account
+## User and Group Account 👤 ♲ 👥
 useradd
 userdel
 usermod
@@ -347,7 +342,7 @@ use command subtitution to extract the return of the commands evaluated expressi
 
 
 
-# Wildcards
+# Wildcards ⚡
 * `?` question mark ->  this can represent any single character, letter/number between a-z, 0-9.
 * `*` asterisk -> this can represent any number of characters (including zero, in other words, zero or more characters)
 * `[ ]` square brackets -> specifies a range.
@@ -355,11 +350,11 @@ use command subtitution to extract the return of the commands evaluated expressi
 * `[!]` Not in List -> specifies a Not listed match
 
 
-### Input Stream redirection
+### Input Stream redirection ⤵️⌨️
 * `command > outputfile` -> `>` Write, write the stream overiding destination file  content and create destination file if not exists
 * `command >> outputfile` -> `>>` Append, writes the stream appending to the destination file content 
 
-### Output Stream redirection
+### Output Stream redirection ⤴️🖥️
 * `command < inputfile` -> `<` Write, write the stream  as input to a command specified
 * `command << marker` -> `<<` The inline input redirection,  you must specify a text marker that delineates the beginning and end of the data used for input. You can use any string value for the text marker, but it must be the same at the beginning of the data and the end of the data:
 
@@ -431,8 +426,8 @@ command          |         Description
 command                          |         Description
 ---------------------------------|------------------------
 `str1 = str2` or `str1 -eq str2` | Checks if str1 is the same as string str2
-`str1 \< str2` or `str1 -lt str2` | Checks if str1 is less than str2 -> note without the escape character `\\` 🚫 `str1 < str2` ❌
-`str1 \> str2` or `str1 -gt str2` | Checks if str1 is greater than str2 ->  note without the escape character `\\` 🚫 `str1 > str2` ❌
+`str1 \< str2` or `str1 -lt str2` | Checks if str1 is less than str2 -> note without the escape character `\` 🚫 `str1 < str2` ❌
+`str1 \> str2` or `str1 -gt str2` | Checks if str1 is greater than str2 ->  note without the escape character `\` 🚫 `str1 > str2` ❌
 `str1 -ge str2`             | Checks if str1 is greater than or equal to str2
 `str1 -le str2`            |  Checks if str1 is less than or equal to str2
 `str1 -ne str2`            | Checks if str1 is not equal to str2
