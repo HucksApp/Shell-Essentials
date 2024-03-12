@@ -368,18 +368,18 @@ use command subtitution to extract the return of the commands evaluated expressi
 ## Conditional statements
 
 ```
-if command
-then
+if command or test      # if condition evalutes the exit status of the command or test 
+then                    # (sucess -> 0) to make decision if or not to execute the block 
   commands
 else           #the else block is optional
    commands
 fi
 ```
 ```
-if command1
+if command1 or test1
 then
  commands
-elif command2
+elif command2 or test2
 then
   more commands
 else              #the else block is optional
@@ -387,16 +387,16 @@ else              #the else block is optional
 fi
 
 
-if command1
+if command1 or test1
 then
   command set 1
-elif command2
+elif command2 or test2
 then
   command set 2
-elif command3
+elif command3 or test3
 then
   command set 3
-elif command4
+elif command4 or test4
 then
   command set 4
 fi
