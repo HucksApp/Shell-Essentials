@@ -365,6 +365,23 @@ use command subtitution to extract the return of the commands evaluated expressi
 ## pipes
 * `command | command | command` -> Send the output of one command to the input of another command
 
+## Conditional statements
+
+```
+if command
+  then
+    commands
+fi
+```
+
+
+
+
+
+
+
+
+
 ## DOMAIN NAME SYSTEM (DNS)
 
 translates human-adapted, text-based domain names to machine-adapted, numerical-based IP
