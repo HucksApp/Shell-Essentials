@@ -369,11 +369,11 @@ use command subtitution to extract the return of the commands evaluated expressi
 * `[!]` Not in List -> specifies a Not listed match
 
 
-### Input Stream redirection ⤵️⌨️
+### Output Stream redirection ⤵️⌨️
 * `command > outputfile` -> `>` Write, write the stream overiding destination file  content and create destination file if not exists
 * `command >> outputfile` -> `>>` Append, writes the stream appending to the destination file content 
 
-### Output Stream redirection ⤴️🖥️
+### Input Stream redirection ⤴️🖥️
 * `command < inputfile` -> `<` Write, write the stream  as input to a command specified
 * `command << marker` -> `<<` The inline input redirection,  you must specify a text marker that delineates the beginning and end of the data used for input. You can use any string value for the text marker, but it must be the same at the beginning of the data and the end of the data:
 
