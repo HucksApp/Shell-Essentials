@@ -420,7 +420,7 @@ fi
 * `test condition`  test command ->
 * `[conditions]`  square bracket -> (no shell parsing for condion expressed) conditions are passed as strings
    logical and arithmetics has to be in string and option format eg  `if [ $value1 -gt 5 ]` or  `if [ $value1 \> 5 ]` : `-gt`  -> `>` : greater than. it had to be escaped in the contest since '>' in string is redirection
-  * compound testing  (AND) -> all condition must be true `[ condition1 ] && [ condition2 ] ...` or  only one condition is required to be true `[ condition1 ] || [ condition2 ] ...`
+  * compound testing  (AND) -> all condition must be true `[ condition1 ] && [ condition2 ] ...` or  (OR) only one condition is required to be true `[ condition1 ] || [ condition2 ] ...`
 
 * `[[conditions]]` double square bracket ->
 
