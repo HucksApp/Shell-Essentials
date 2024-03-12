@@ -336,8 +336,12 @@ extracting the output of a shell process or commands (executed in a subshell)
 # Expression subtitution
 extracting the output of a mathematical or logical expression
 * `$[math expression]` -> with square bracket
+
+ **Alternatively**
+
 * `expr` -> expr command can be use to evaluate mathematical or logical expression written in string
-  `expr 1 + 5` use command subtitution to extract the return of the evaluated expression.
+  `expr 1 + 5`. use command subtitution to extract the return of the evaluated expression.
+* `bc` -> Bash calculator command can be used.
 
 
 
