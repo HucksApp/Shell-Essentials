@@ -1,5 +1,6 @@
 # Shell-clean-sheat  🐚 🐚 🐚 🐚
 
+![bash_logo](https://github.com/HucksApp/Shell-cln-sht/assets/58187974/76cda9a3-98d6-45f3-aa3a-b297ce91737e)
 
 
 
@@ -401,9 +402,7 @@ then
   command set 4
 fi
 ```
-
-### Tests
-
+### Tests 🧪🧑‍🔬
 * `test condition`  test command ->
 * `[conditions]`  square bracket -> (no shell parsing for condion expressed) conditions are passed as strings
    logical and arithmetics has to be in string and option format eg  `if [ $value1 -gt 5 ]` or  `if [ $value1 \> 5 ]` : `-gt`  -> `>` : greater than. it had to be escaped in the contest since '>' in string is redirection
@@ -411,7 +410,8 @@ fi
 * `[[conditions]]` double square bracket ->
 
 
-### File †est
+### File Test 🔎📃🧪
+
 command          |         Description
 -----------------|------------------------
 `-d file`        | Checks if file exists and is a directory 
@@ -426,17 +426,26 @@ command          |         Description
 `file1 -nt file2` | Checks if file1 is newer than file2 
 `file1 -ot file2` | Checks if file1 is older than file2
 
+### String Test 🅰️🅱️🧪
+
+command                          |         Description
+---------------------------------|------------------------
+`str1 = str2` or `str1 -eq str2` | Checks if str1 is the same as string str2
+`str1 \< str2` or `str1 -lt str2` | Checks if str1 is less than str2 -> note without the escape character `\\` 🚫 `str1 < str2` ❌
+`str1 \> str2` or `str1 -gt str2` | Checks if str1 is greater than str2 ->  note without the escape character `\\` 🚫 `str1 > str2` ❌
+`str1 -ge str2`             | Checks if str1 is greater than or equal to str2
+`str1 -le str2`            |  Checks if str1 is less than or equal to str2
+`str1 -ne str2`            | Checks if str1 is not equal to str2
 
 
 
-Checks if file exists and is writable
 
 
-
-Checks if file1 is newer than file2 
-
-
-
+-n str1
+-z str1
+  Checks if str1 is less than str2
+Checks if str1 is greater than str2
+Checks if str1 has a length greater than zero Checks if str1 has a length of zero
 
 
 
