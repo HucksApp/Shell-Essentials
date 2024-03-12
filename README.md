@@ -27,10 +27,6 @@ Special Variable  | Description
 
 
 
-
-
-
-
 # Operating system ⚙️⚙️ 🖥
  system software manages computer hardware and software resources, and provides common services for computer programs.
  e.g  Microsoft windows, macOs, ***Linux**, ios
@@ -103,71 +99,8 @@ Special Variable  | Description
 
 
 
-## Text manipulation 📝
 
-Command                     |            Description and options
-----------------------------|--------------------------------------
-wc
-find
-grep
-
-
-## File and Directory manipulation 📂 📄
-Command                     |            Description and options
-----------------------------|--------------------------------------
-pwd                         | Present working Directory -> check the directory you are in the system structure `$ pwd`
-cd                          | Change Directory -> change directory to the given directory name  or to home if no given `$ cd <direcrory name>` or `$ cd`
-ls                          | lists the files and directories in the given directory name or current directory if no directory name `$ ls <direcrory name>` or `$ ls`
-⟹                          | Options: `ls -< F R a l >  ?<direcrory name>`
-⟹                          |      F -> Flag the result. directories are written like `<directory name>/` and files `<file name>`
-⟹                          |      R ->  Recursive option, all directories and subdirectory is listed
-⟹                          |      l -> long information, display the files and directories full information
-⟹                          |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
-cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp  <source> <destination>`
-⟹                          | Options: `cp -< i R p > <source> <destination>`
-⟹                          |      i -> interactive, shell asks important modification question, as it tries to execute the given copy command
-⟹                          |      R -> Recursive option, copy files in directory and all sub directory
-⟹                          |      p -> keep all attributes of the file, including its access permissions, owner ....
-tail
-head
-file
-type
-which
-ln
-mkdir
-touch
-rm
-mv
-echo
-cat
-sort
-
-
-
-alias
-history
-set
-unset
-export
-env
-
-
-## sample and descriptions
-```
-$ ls -l desktop
-
-$ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
-  ■  ■        ■    ■         ■       ■ (     ■      )  ■
-
-■ The file type — such as directory (d), file (-), linked file (l), character device (c), or block device (b)
-■ The file permissions (see Chapter 6)
-■ The number of file hard links (See the section “Linking Files” in Chapter 7.)
-■ The file owner username
-■ The file primary group name
-■ The file byte size
-■ The last time the file was modified
-■ The filename or directory name
-```
+## Linux Startups
 
 When you log in to the Linux system, the bash shell starts as a login shell. The login shell typically looks for five different startup files to process commands from:
 * /etc/profile 📄 -> main default startup file for the bash shell on the system. All users on the system execute this startup file when they log in
@@ -227,7 +160,6 @@ jessica:x:503:503:Jessica:/home/jessica:/bin/bash
 katie:x:502:502:katie:/home/katie:/bin/bash
 ``` 
 
-
 ### /etc/shadow 📄
 File contains one record for each user account on the system, Only the root user has access
 
@@ -250,7 +182,6 @@ rich:$1$.FfcK0ns$f1UgiyHQ25wrB/hykCn020:11627:0:99999:7:::
 $ 
 
 ```
-
 
 ### /etc/group 📄
 file contains information about each group used on the system
@@ -278,6 +209,75 @@ test:x:504:
 
 $ 
 ```
+
+## Text manipulation 📝
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
+wc
+find
+grep
+
+
+## File and Directory manipulation 📂 📄
+Command                     |            Description and options
+----------------------------|--------------------------------------
+pwd                         | Present working Directory -> check the directory you are in the system structure `$ pwd`
+cd                          | Change Directory -> change directory to the given directory name  or to home if no given `$ cd <direcrory name>` or `$ cd`
+ls                          | lists the files and directories in the given directory name or current directory if no directory name `$ ls <direcrory name>` or `$ ls`
+⟹                          | Options: `ls -< F R a l >  ?<direcrory name>`
+⟹                          |      F -> Flag the result. directories are written like `<directory name>/` and files `<file name>`
+⟹                          |      R ->  Recursive option, all directories and subdirectory is listed
+⟹                          |      l -> long information, display the files and directories full information
+⟹                          |      a  -> all, display all files and directories including hiddens (file hidden with `.<name>`)
+cp                          | Copy -> Copying files and directories from one location in the filesystem to another  `cp  <source> <destination>`
+⟹                          | Options: `cp -< i R p > <source> <destination>`
+⟹                          |      i -> interactive, shell asks important modification question, as it tries to execute the given copy command
+⟹                          |      R -> Recursive option, copy files in directory and all sub directory
+⟹                          |      p -> keep all attributes of the file, including its access permissions, owner ....
+tail
+head
+file
+type
+which
+ln
+mkdir
+touch
+rm
+mv
+echo
+cat
+sort
+
+
+## File Information with ***ls***
+```
+$ ls -l desktop
+
+$ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
+  ■  ■        ■    ■         ■       ■ (     ■      )  ■
+
+■ The file type — such as directory (d), file (-), linked file (l), character device (c), or block device (b)
+■ The file permissions (see Chapter 6)
+■ The number of file hard links (See the section “Linking Files” in Chapter 7.)
+■ The file owner username
+■ The file primary group name
+■ The file byte size
+■ The last time the file was modified
+■ The filename or directory name
+```
+
+
+# Eviroment Variable manipulation
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
+alias
+history
+set
+unset
+export
+env
 
 
 ## Process manipulation ⚙️⚙️🔁
@@ -421,8 +421,6 @@ fi
 * `[conditions]`  square bracket -> (no shell parsing for condion expressed) conditions are passed as strings
    logical and arithmetics has to be in string and option format eg  `if [ $value1 -gt 5 ]` or  `if [ $value1 \> 5 ]` : `-gt`  -> `>` : greater than. it had to be escaped in the contest since '>' in string is redirection
   * compound testing  (AND) -> all condition must be true `[ condition1 ] && [ condition2 ] ...` or  (OR) only one condition is required to be true `[ condition1 ] || [ condition2 ] ...`
-
-
 
 
 ### File Test 🔎📃🧪
