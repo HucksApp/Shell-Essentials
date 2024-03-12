@@ -460,7 +460,7 @@ command                          |         Description
 * `((expression))` double round bracket  -> expresssion and mathematic signs, variable are all parsed.
    * Compound expressions -> `((expression &&  expression ....))` ,  `((expression ||  expression))` , `((expression)) && ((expression )) ...` , `((expression)) || ((expression)) ...` 
 * `[[expression]]` double square bracket -> expresssion and mathematic signs , variable are all parsed.
-   * Compound expressions -> `[[expression &&  expression ....]]` , `[[expression ||  expression]]` , `[[expression ]] && [[expression &}] ...` , `[[expression]] || [[expression]] ...` 
+   * Compound expressions -> `[[expression &&  expression ....]]` , `[[expression ||  expression]]` , `[[expression ]] && [[expression ]] ...` , `[[expression]] || [[expression]] ...` 
 
 
 ## DOMAIN NAME SYSTEM (DNS)
