@@ -338,9 +338,10 @@ extracting the output of a mathematical or logical expression
 * `$[math expression]` -> with square bracket
 
  **Alternatively**
+use command subtitution to extract the return of the commands evaluated expression.
 
 * `expr` -> expr command can be use to evaluate mathematical or logical expression written in string
-  `expr 1 + 5`. use command subtitution to extract the return of the evaluated expression.
+  `expr 1 + 5`.
 * `bc` -> Bash calculator command can be used.
 
 
