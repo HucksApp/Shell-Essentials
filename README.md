@@ -342,7 +342,9 @@ extracting the output of a shell process or commands (executed in a subshell)
 * `[!]` Not in List -> specifies a Not listed match
 
 
-
+# Input and Output Stream redirection
+* `command > outputfile` -> `>` Write, write the stream overiding previous content
+* `command >> outputfile` -> '>>' Append, writes the stream appending to the old content 
 
 
 
