@@ -104,9 +104,13 @@ Special Variable  | Description
 
 
 ## Text manipulation 📝
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 wc
 find
 grep
+
 
 ## File and Directory manipulation 📂 📄
 Command                     |            Description and options
