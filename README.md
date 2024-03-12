@@ -277,6 +277,9 @@ $
 
 
 ## Process manipulation ⚙️⚙️🔁
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 ps
 bash
 jobs
@@ -288,6 +291,9 @@ killall
 
 
 ## Compressing and Archiving data 📃 → 🗞
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 zip
 bzip2
 gzip
@@ -295,7 +301,10 @@ compress
 tar -> most used
 
 
-## Memory 🧠
+## Memory 💻🧠
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 mount
 umount
 df
