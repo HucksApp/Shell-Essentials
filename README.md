@@ -337,6 +337,8 @@ chsh
 chmod
 
 
+# Shell Scripting
+
 ## Shell Variable
 
 * Defination -> `var1=value` Auto detection of data type ***int, string etc***
