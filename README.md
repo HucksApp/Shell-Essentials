@@ -369,8 +369,36 @@ use command subtitution to extract the return of the commands evaluated expressi
 
 ```
 if command
-  then
-    commands
+then
+  commands
+else           #the else block is optional
+   commands
+fi
+```
+```
+if command1
+then
+ commands
+elif command2
+then
+  more commands
+else              #the else block is optional
+  commands
+fi
+
+
+if command1
+then
+  command set 1
+elif command2
+then
+  command set 2
+elif command3
+then
+  command set 3
+elif command4
+then
+  command set 4
 fi
 ```
 
