@@ -268,7 +268,7 @@ $ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
 ```
 
 
-# Eviroment Variable manipulation
+# Enviroment Variable manipulation
 
 Command                     |            Description and options
 ----------------------------|--------------------------------------
