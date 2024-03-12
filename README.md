@@ -330,7 +330,7 @@ chmod
 
 # command substitution
 extracting the output of a shell process or commands (executed in a subshell)
-* `var1=`commands`` -> with backticks
+* `var1=\`commands\`` -> with backticks
 * `var1=$(commands)` -> with bracket
 
 
