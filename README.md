@@ -455,7 +455,7 @@ command                          |         Description
 `-z str1`                | Checks if str1 has a length of zero
 
 
-## advanced logical and mathematical expression
+## Advanced logical and mathematical expression
 
 * `((expression))` double round bracket  -> expresssion and mathematic signs, variable are all parsed.
    * Compound expressions -> `((expression &&  expression ....))` ,  `((expression ||  expression))` , `((expression)) && ((expression )) ...` , `((expression)) || ((expression)) ...` 
