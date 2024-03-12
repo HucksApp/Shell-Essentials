@@ -311,6 +311,9 @@ df
 du
                                  
 ## User and Group Account 👤 ♲ 👥
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 useradd
 userdel
 usermod
@@ -320,6 +323,9 @@ passwd
 
 
 ## ch commands
+
+Command                     |            Description and options
+----------------------------|--------------------------------------
 chpasswd
 chage
 chfn
