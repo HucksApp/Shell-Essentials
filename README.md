@@ -436,16 +436,10 @@ command                          |         Description
 `str1 -ge str2`             | Checks if str1 is greater than or equal to str2
 `str1 -le str2`            |  Checks if str1 is less than or equal to str2
 `str1 -ne str2`            | Checks if str1 is not equal to str2
+`-n str1`                | Checks if str1 has a length greater than zero
+`-z str1`                | Checks if str1 has a length of zero
 
 
-
-
-
--n str1
--z str1
-  Checks if str1 is less than str2
-Checks if str1 is greater than str2
-Checks if str1 has a length greater than zero Checks if str1 has a length of zero
 
 
 
