@@ -454,7 +454,7 @@ command          |         Description
 command                          |         Description
 ---------------------------------|------------------------
 `str1 = str2` or `str1 -eq str2` | Checks if str1 is the same as string str2
-`str1 \< str2` or `str1 -lt str2` | Checks if str1 is less than str2 -> note without the escape character `\` 🚫 `str1 < str2` ❌
+`str1 \< str2` or `str1 -lt str2` | Checks if str1 is less than str2 -> note without the escape character `\` 🚫 `str1 < str2` ❌  `<` is interpreted as input redirection 
 `str1 \> str2` or `str1 -gt str2` | Checks if str1 is greater than str2 ->  note without the escape character `\` 🚫 `str1 > str2` ❌
 `str1 -ge str2`             | Checks if str1 is greater than or equal to str2
 `str1 -le str2`            |  Checks if str1 is less than or equal to str2
