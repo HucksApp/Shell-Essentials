@@ -521,7 +521,7 @@ done
 ```
 
 
-## ***Break**** and ***Continue***
+## ***Break*** and ***Continue***
 * `break` -> break from immediate loop
 * `continue` -> jump the rest of block execusion but continues with the loop.
 
