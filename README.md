@@ -392,6 +392,7 @@ use command subtitution to extract the return of the commands evaluated expressi
 
 ## Conditional statements
 
+## ***if*** Statemants
 ```
 if command or test      # if condition evalutes the exit status of the command or test 
 then                    # (sucess -> 0) to make decision if or not to execute the block 
@@ -469,6 +470,68 @@ command                          |         Description
    * Compound expressions -> `((expression &&  expression ....))` ,  `((expression ||  expression))` , `((expression)) && ((expression )) ...` , `((expression)) || ((expression)) ...` 
 * `[[expression]]` double square bracket -> expresssion and mathematic signs , variable are all parsed.
    * Compound expressions -> `[[expression &&  expression ....]]` , `[[expression ||  expression]]` , `[[expression ]] && [[expression ]] ...` , `[[expression]] || [[expression]] ...` 
+
+
+## ***Case*** Statement similar to switch in other scripting Langs
+
+```
+case variable in
+pattern1 | pattern2) commands1;;
+pattern3) commands2;;
+*) default commands;;
+esac
+```
+
+## Loop statements
+
+## ***for*** loop 
+```
+for var in list
+do
+ commands
+done
+```
+```
+for (( variable assignment ,... ; condition ,... ; iteration process ,... ))
+do
+ commands
+done
+```
+
+
+## ***while*** loop
+
+```
+while test command
+do
+ other commands
+done
+```
+```
+while ((condition))
+```
+
+## ***Until*** loop
+
+```
+until test commands
+do
+ other commands
+done
+```
+
+
+## Break and Continue
+* `break` -> break from immediate loop
+* `continue` -> jump the rest of block execusion but continues with the loop.
+
+## Changing the field separator
+
+By default, the bash shell considers the following characters as field separators:
+■ A space
+■ A tab
+■ A newline
+* `IFS= character : character ....`
 
 
 ## DOMAIN NAME SYSTEM (DNS)
