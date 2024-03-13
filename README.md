@@ -528,10 +528,10 @@ done
 ## Changing the field separator
 
 By default, the bash shell considers the following characters as field separators:
-■ A space
-■ A tab
-■ A newline
-* `IFS= character : character ....`
+*  A space
+*  A tab
+*  A newline
+To change the field seperator set this variable -> `IFS= character : character ....`
 
 
 ## DOMAIN NAME SYSTEM (DNS)
