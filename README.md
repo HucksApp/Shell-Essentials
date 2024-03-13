@@ -390,7 +390,7 @@ use command subtitution to extract the return of the commands evaluated expressi
 ## pipes
 * `command | command | command` -> Send the output of one command to the input of another command
 
-## Conditional statements
+## Conditional statements ⎇
 
 ## ***if*** Statemants
 ```
@@ -472,7 +472,7 @@ command                          |         Description
    * Compound expressions -> `[[expression &&  expression ....]]` , `[[expression ||  expression]]` , `[[expression ]] && [[expression ]] ...` , `[[expression]] || [[expression]] ...` 
 
 
-## ***Case*** Statement similar to switch in other scripting Langs
+## ***Case*** Statement similar to switch in other scripting Langs ⎇
 
 ```
 case variable in
@@ -482,9 +482,9 @@ pattern3) commands2;;
 esac
 ```
 
-## Loop statements
+## Loop statements ♻️ 🔁
 
-## ***for*** loop 
+## ***for*** loop ♽
 ```
 for var in list
 do
@@ -499,7 +499,7 @@ done
 ```
 
 
-## ***while*** loop
+## ***while*** loop  ♽
 
 ```
 while test command
@@ -511,7 +511,7 @@ done
 while ((condition))
 ```
 
-## ***Until*** loop
+## ***Until*** loop ♽
 
 ```
 until test commands
@@ -521,7 +521,7 @@ done
 ```
 
 
-## ***Break*** and ***Continue***
+## ***Break*** and ***Continue***  ⌇ ↪️
 * `break` -> break from immediate loop
 * `continue` -> jump the rest of block execusion but continues with the loop.
 
