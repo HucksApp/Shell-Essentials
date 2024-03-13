@@ -531,6 +531,7 @@ By default, the bash shell considers the following characters as field separator
 *  A space
 *  A tab
 *  A newline
+  
 To change the field seperator set this variable -> `IFS= character : character ....`
 
 
