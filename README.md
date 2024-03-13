@@ -509,6 +509,8 @@ done
 ```
 ```
 while ((condition))
+
+while [[condition]]
 ```
 
 ## ***Until*** loop ♽
@@ -518,6 +520,11 @@ until test commands
 do
  other commands
 done
+```
+```
+until ((condition))
+
+until [[condition]]
 ```
 
 
