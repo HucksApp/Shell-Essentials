@@ -401,7 +401,7 @@ use command subtitution to extract the return of the commands evaluated expressi
 * `command < inputfile` -> `<` Write, write the stream  as input to a command specified
 * `command << marker` -> `<<` The inline input redirection,  you must specify a text marker that delineates the beginning and end of the data used for input. You can use any string value for the text marker, but it must be the same at the beginning of the data and the end of the data:
 
-## pipes
+## pipes ┃
 * `command | command | command` -> Send the output of one command to the input of another command
 
 ## Conditional statements ⎇
