@@ -25,6 +25,7 @@ Special Variable  | Description
 * `compgen -A function` -> will list all the functions you could run.
 * `compgen -A function -abck` -> will list all the above in one go.
 
+-------------------------------
 
 
 # Operating system ⚙️⚙️ 🖥
@@ -98,7 +99,7 @@ Special Variable  | Description
 ```
 
 
-
+-------------------------------------------------
 
 ## Linux Startups
 
@@ -210,6 +211,8 @@ test:x:504:
 $ 
 ```
 
+-----------------------------------------------------------
+
 ## Text manipulation 📝
 
 Command                     |            Description and options
@@ -218,6 +221,8 @@ wc
 find
 grep
 
+
+--------------------------------
 
 ## File and Directory manipulation 📂 📄
 Command                     |            Description and options
@@ -267,6 +272,7 @@ $ drwxr-xr-x 2 christine christine 4096 Apr 22 20:37 Desktop
 ■ The filename or directory name
 ```
 
+-----------------------------------------
 
 # Enviroment Variable manipulation
 
@@ -279,6 +285,7 @@ unset
 export
 env
 
+-------------------------------------
 
 ## Process manipulation ⚙️⚙️🔁
 
@@ -293,6 +300,8 @@ exit
 killall
 
 
+---------------------------------------------------
+
 
 ## Compressing and Archiving data 📃 → 🗞
 
@@ -304,6 +313,7 @@ gzip
 compress
 tar -> most used
 
+------------------------------------------------
 
 ## Memory 💻🧠
 
@@ -313,7 +323,10 @@ mount
 umount
 df
 du
-                                 
+
+
+----------------------------------
+
 ## User and Group Account 👤 ♲ 👥
 
 Command                     |            Description and options
@@ -325,6 +338,7 @@ groupadd
 groupmod
 passwd
 
+---------------------------------------------
 
 ## ch commands
 
@@ -335,7 +349,7 @@ chage
 chfn
 chsh
 chmod
-
+-----------------------------------------------------------------
 
 # Shell Scripting
 
@@ -427,6 +441,8 @@ then
   command set 4
 fi
 ```
+------------------------------------------------------------------------
+
 ### Tests 🧪🧑‍🔬
 * `test condition`  test command ->
 * `[conditions]`  square bracket -> (no shell parsing for condion expressed) conditions are passed as strings
@@ -482,6 +498,9 @@ pattern3) commands2;;
 esac
 ```
 
+-----------------------------------------
+
+
 ## Loop statements ♻️ 🔁
 
 ## ***for*** loop ♽
@@ -531,6 +550,10 @@ until [[condition]]
 ## ***Break*** and ***Continue***  ⌇ ↪️
 * `break` -> break from immediate loop
 * `continue` -> jump the rest of block execusion but continues with the loop.
+
+
+-----------------------------------------
+
 
 ## Changing the field separator
 
