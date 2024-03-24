@@ -7,8 +7,7 @@
 Special Variable    | Description
 ------------------- | ------------
 `$0`                | The filename of the current script
-`$1`, `$2`, ...     | The first ,second, ... arguments passed after the script name `$0`
-`$n`                | "n" refers to a positive number that represents the nth argument passed to the script. For example, $1 represents the first argument
+`$1`, `$2`, ... `$n`    | The first ,second, ... arguments passed after the script name `$0`. "n" refers to a positive number that represents the nth argument passed to the script
 `$#`                | Represents the number of arguments passed to the script
 `$*`                | Represents all the arguments passed to the script
 `$@`                | Represents all the arguments passed to the script
