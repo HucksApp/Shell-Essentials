@@ -565,10 +565,10 @@ By default, the bash shell considers the following characters as field separator
 To change the field seperator set this variable -> `IFS= character : character ....`
 
 ### NOTE  📌                                                                                     
-> Use && to execute one command only when the previous one succeeds.
-> Use || to execute one command only when the previous one fails.
+> Use `&&` to execute one command only when the previous one succeeds.
+> Use `||` to execute one command only when the previous one fails.
 > Combine the above for conditional branching.
-> Use ; to join two commands when you want the second to execute no matter the result of the first one.
+> Use `;` to join two commands when you want the second to execute no matter the result of the first one.
        
 
                                                        
