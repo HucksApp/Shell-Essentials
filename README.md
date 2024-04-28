@@ -564,7 +564,7 @@ By default, the bash shell considers the following characters as field separator
   
 To change the field seperator set this variable -> `IFS= character : character ....`
 
-### NOTE For Command Chaining: 📌                                                                                     
+### NOTE📌 :  For Command Chaining                                                                                   
 > Use `&&` to execute one command only when the previous one succeeds.
 > Use `||` to execute one command only when the previous one fails.
 > Combine the above for conditional branching.
